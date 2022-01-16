@@ -14,8 +14,8 @@ let firstRoundScore = 0;
 let secondScore = 0;
 let secondRoundScore = 0;
 let dicePicture = document.querySelector('#dice');
-let rollOption = document.querySelector('.roll-option');
-let holdOption = document.querySelector('.hold-option');
+let rollOption = document.querySelector('.rolldisplay');
+let holdOption = document.querySelector('.hold');
 
 function holding () {
     
