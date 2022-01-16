@@ -99,7 +99,7 @@ opacity: 1;
     font-size: 40px;
 }
 .score {
-    padding-top: 100px;
+    padding-top: 70px;
     width: 90%;
     margin: auto;
 }
@@ -131,7 +131,7 @@ width: 40px;
         font-size: 20px;
     }
     .score {
-        padding-top: 60px;
+        padding-top: 40px;
     }
     .global-score-2, .global-score-1 {
         font-size: calc(.1rem + 6.5vw);
@@ -160,7 +160,7 @@ width: 40px;
             font-size: calc(.1rem + 3.5vw);
         }
         .score {
-            padding-top: 40px;
+            padding-top: 20px;
         }
         .global-score-2, .global-score-1 {
             font-size: calc(.1rem + 6.3vw);
