@@ -1,0 +1,184 @@
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: burlywood;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.playing {
+font-weight: bolder;
+transition: transform .1s;
+-ms-transform: scale(1.2);
+-webkit-transform: scale(1.2); 
+transform: scale(1.2);
+}
+
+.playing::after {
+    content: ' *';
+    color: red;
+}
+
+.reload {
+font-size: 18px;
+}
+
+a:hover {
+    color: red;
+}
+
+.hold, .rolldisplay {
+    display: none;
+}
+
+
+.table-game {
+    padding: 2vh;
+    margin: 30px;
+    background: linear-gradient(to right, #efefef 50%, white 50%); 
+    height: 95vh;
+}
+
+.new-game {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.table {
+    text-align: center;
+}
+
+.new-game-icon {
+color:#DC143C;
+}
+
+.game-option-icon {
+    color: #DC143C;
+}
+
+.center {
+    text-align: center;
+}
+
+.gaming {
+    line-height: 75%;
+}
+
+.current {
+font-weight: bold;
+}
+
+.round-score {
+color: white;
+font-size: 30px;
+}
+
+.table-score {
+    background: #DC143C;
+    margin: auto;
+}
+
+.animation-dice {
+animation: fadeInAnimation ease 3s; 
+animation-fill-mode: forwards; 
+animation-iteration-count: 1; 
+} 
+@keyframes fadeInAnimation { 
+0% { 
+opacity: 0; 
+} 
+100% { 
+opacity: 1; 
+} 
+} 
+
+@media (min-width: 800px){
+.player {
+    font-size: 40px;
+}
+.score {
+    padding-top: 100px;
+    width: 90%;
+    margin: auto;
+}
+.global-score-2, .global-score-1 {
+    font-size: 85px;
+}
+.game-option-icon {
+width: 40px;
+}
+.choose-option {
+    font-size: 26px;
+    padding-left: 15px;
+}
+.table-score {
+    width: 150px;
+    padding: 12px 5px 1px 5px;
+}
+.current {
+    font-size: 14px; 
+}
+.new-game-button {
+    font-size: 28px;
+}
+
+}
+
+@media (min-width: 550px) and (max-width: 799px){
+    .player {
+        font-size: 20px;
+    }
+    .score {
+        padding-top: 60px;
+    }
+    .global-score-2, .global-score-1 {
+        font-size: calc(.1rem + 6.5vw);
+    }
+    .game-option-icon {
+        width: 30px;
+        }
+        .choose-option {
+            font-size: 17px;
+            padding-left: 15px;
+        }
+        .table-score {
+            width: 120px;
+            padding: 12px 0px 1px 0px;
+        }
+        .current {
+            font-size: 14px; 
+        }
+        .new-game-button {
+            font-size: 25px;
+        }
+    }
+
+    @media (max-width: 549px){
+        .player {
+            font-size: calc(.1rem + 3.5vw);
+        }
+        .score {
+            padding-top: 40px;
+        }
+        .global-score-2, .global-score-1 {
+            font-size: calc(.1rem + 6.3vw);
+        }
+        .table-score {
+            width: 70px;
+            padding: 6px 0px 1px 0px;
+        }
+        .game-option-icon {
+            width: calc(.1rem + 17.3vw);
+            }
+        .choose-option {
+        line-height: 150%;
+        }
+        .current {
+            font-size: 12px; 
+        }
+        .new-game-button {
+            font-size: 20px;
+        }
+        }
